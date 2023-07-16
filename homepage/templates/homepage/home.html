@@ -1,16 +1,27 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
         <title>huex.work</title>
+        <link rel="stylesheet" href="{% static 'homepage/home.css' %}">
     </head>
     <body>
-        <h1>Hello, this is <a href="https://huex.work">huex.work</a></h1>
-        <p>Find me on <a href="https://github.com/georgehu716">Github</a>, <a href="https://twitter.com/_ooooooG">Twitter</a>, or contact me with email: <a href="mailto:erxionghu@gmail.com">erxionghu@gmail.com</a></p>
-        <h3>Blog</h3>
-        <h3>Projects</h3>
-        <ul>
-            <li><strong>huex.work</strong> <a href="https://github.com/Georgehu716/huex.work">https://github.com/Georgehu716/huex.work</a></li>
-            <p>My personal website.</p>
-        </ul>
+        <div id="main">
+            <h1>Hello, this is <a href="https://huex.work">huex.work</a></h1>
+            <p>Find me on <a href="https://github.com/georgehu716">Github</a>, <a href="https://twitter.com/_ooooooG">Twitter</a>, or contact me with email: <a href="mailto:erxionghu@gmail.com">erxionghu@gmail.com</a></p>
+            <h2 id="news">News</h2>
+            <ul>
+                <li><strong>[Jul 14, 2023]</strong> Hello, huex.work!</li>
+            </ul>
+            <h2 id="blog">Blog</h2>
+            <ul>
+                <li><a href="#">My first blog (WIP)</a></li>
+            </ul>
+            <h2 id="projects">Projects</h2>
+            <ul>
+                <li><strong>huex.work</strong> <a href="https://github.com/Georgehu716/huex.work">https://github.com/Georgehu716/huex.work</a></li>
+                <p>My personal website.</p>
+            </ul>
+        </div>
     </body>
 </html>
