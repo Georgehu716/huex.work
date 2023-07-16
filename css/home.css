@@ -2,7 +2,7 @@ a {
     color: inherit;
 }
 
-a:hover:not(.news) {
+a:hover {
     background-color: hsla(196, 61%, 58%, .75);
     text-decoration: none;
     cursor: pointer;
