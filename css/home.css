@@ -1,9 +1,10 @@
 a {
     color: inherit;
+    background-image: linear-gradient(transparent 0%, transparent calc(70% - 1px), #52b2d5bf calc(50% - 1px), #52b2d5bf 100%);
 }
 
 a:hover {
-    background-color: hsla(196, 61%, 58%, .75);
+    background-color: #52b2d5bf;
     text-decoration: none;
     cursor: pointer;
 }
