@@ -170,7 +170,72 @@ p {
     border: 1px solid var(--border);
 }
 
-/* Record page dense timeline */
+/* Like page list styling (h2 + ul structure lives only on like.html) */
+.content h2 + ul {
+    gap: 0.7rem;
+    padding-top: 0.3rem;
+    border-top: none;
+}
+
+.content h2 + ul > li {
+    padding: 0.85rem 1.2rem 0.85rem 0;
+    border: none;
+    border-top: 0;
+    border-bottom: 0;
+    background: transparent;
+    font-size: 1.08rem;
+    color: #1d1d1d;
+}
+
+.content h2 + ul > li:first-child {
+    border-top: none;
+}
+
+.content h2 + ul > li:nth-child(odd) {
+    background: transparent;
+}
+
+.content h2 + ul > li::before {
+    content: "";
+    display: inline-block;
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-right: 0.75rem;
+    border-radius: 50%;
+    background: #4a4a4a;
+    vertical-align: middle;
+    transform: translateY(-0.08em);
+}
+
+.content h2 + ul ul {
+    list-style: disc;
+    list-style-position: outside;
+    margin: 0.75rem 0 0 2.2rem;
+    padding: 0 0 0 0.6rem;
+    display: block;
+}
+
+.content h2 + ul ul li {
+    padding: 0.25rem 0;
+    border: none;
+    background: transparent;
+    font-size: 0.98rem;
+    color: #2f2f2f;
+}
+
+.content h2 + ul ul li:first-child {
+    border-top: none;
+}
+
+.content h2 + ul ul li::before {
+    content: none;
+}
+
+.content h2 + ul ul li:nth-child(odd) {
+    background: transparent;
+}
+
+/* Thought page dense timeline */
 body .content > ul {
     gap: 0;
 }
