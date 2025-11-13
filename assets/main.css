@@ -170,43 +170,6 @@ p {
     border: 1px solid var(--border);
 }
 
-/* Like page default list reset */
-.like-list,
-.like-list ul {
-    list-style-position: outside;
-    display: block;
-    margin: 0.7rem 0;
-    padding-left: 1.4rem;
-}
-
-.like-list {
-    list-style-type: disc;
-    margin-top: 0.2rem;
-}
-
-.like-list ul {
-    list-style-type: circle;
-    margin-top: 0.4rem;
-}
-
-.like-list li {
-    padding: 0.35rem 0;
-    border: none;
-    font-size: 1.02rem;
-}
-
-.like-list li:first-child {
-    border-top: none;
-}
-
-.content .like-list li {
-    background: none;
-}
-
-.content .like-list li:nth-child(odd) {
-    background: none;
-}
-
 /* Thought page dense timeline */
 body .content > ul {
     gap: 0;
